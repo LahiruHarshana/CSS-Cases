@@ -19,13 +19,20 @@
             border-radius: 35px;
         }
 
-        h3:before{
-            content: " 😱 ";
+        h3::first-letter{
+            color: #9eeaf9;
         }
 
-        h3:after{
-            content: "🥹";
+        h3::marker{
+            color: yellow;
+            background-color: yellow;
         }
+
+        input::placeholder{
+            color: #9eeaf9;
+        }
+
+
         h3:active{
             color: red;
         }
@@ -45,13 +52,9 @@
 <h2>hi</h2>
 
 
-<p style="font-size:48px">
-     &#128516; &#128525; &#128151;
-</p>
 
 <button>hi</button>
 
-<l>
 
 
 <p>Select the first last and 3rd list of the element</p>
@@ -62,6 +65,10 @@
     <li>A</li>
     <li>A</li>
 </ul>
+
+<input type="text" placeholder="HI">
+
+<h3>hello</h3>
 <section >
     <h2>A</h2>
     <h2>B-selected</h2>
