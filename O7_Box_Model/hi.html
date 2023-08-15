@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
   <style>
-    div{
+    div:first-child{
       position: relative;
       width: 100px;
       height: 100px;
@@ -12,10 +12,22 @@
       left: 300px;
       top: 400px;
     }
+
+    div:nth-child(2){
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background: hotpink;
+        left: 300px;
+        right: 0px;
+        top: 400px;
+        bottom: 0px;
+    }
   </style>
 </head>
 <body>
 <div>
 </div>
+<div></div>
 </body>
 </html>
