@@ -9,9 +9,12 @@
       height: 300px;
       border: 2px solid black;
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      /*grid-template-rows: 1fr 1fr 1fr;*/
+      /*grid-template-columns: 1fr 1fr 1fr 1fr ;*/
+      grid-template-rows: repeat(3,1fr);
+      grid-template-columns: repeat(4,1fr);
       gap: 2px;
+
     }
 
     div{
