@@ -15,33 +15,25 @@
         /*this is called as a at-rule in css*/
         /*this is just a condition similar as a if statement*/
 
-        @media all and (min-width:320px) {
+        @media all and (max-width:768px) {
             h1 {
-                color: pink;
-            }
-        }
-
-        @media all and (min-width:425px) {
-            h1 {
-            color:orangered;
+                color: red;
             }
 
         }
 
-        @media all and (min-width:768px) {
+        @media all and (max-width:425px) {
             h1 {
-      color: red;
+                color:blue;
             }
 
         }
 
-
-
-
-
-
-
-
+        @media all and (max-width:320px) {
+            h1 {
+                color: green
+            }
+        }
 
 
 
