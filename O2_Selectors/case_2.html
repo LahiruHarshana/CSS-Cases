@@ -8,35 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
     <style>
 
-        .red{
-            font-size: 100px;
-            color: red;
+        /*ID selector*/
+        #selected {
+            background: orange;
         }
 
-        /*class Selector*/
-        .green{
-            font-size: 50px;
+        /*Class Selector*/
+        .optionOne {
             color: green;
-
-        }
-        #haha{
-            background-color: orange;
-
+            font-size: 50px;
         }
 
+        .optionTwo {
+            color: red;
+            font-size: 100px;
+        }
 
     </style>
 </head>
 <body>
 
-<h1 class="green">GREEN,Font-SIZE=50</h1>
-<h1 class="red">RED,Font-SIZE=100</h1>
-<h1 class="green" id="haha">GREEN,Font-SIZE=50,Back:Orange</h1>
-<h1 class="red">RED,Font-SIZE=100</h1>
-<h1 class="green">GREEN,Font-SIZE=50</h1>
-<h1 class="red">RED,Font-SIZE=100</h1>
+<h1 class="optionOne">GREEN,Font-SIZE=50</h1>
+<h1 class="optionTwo">RED,Font-SIZE=100</h1>
+<h1 class="optionOne" id="selected">GREEN,Font-SIZE=50,Back:Orange</h1>
+<h1 class="optionTwo">RED,Font-SIZE=100</h1>
+<h1 class="optionOne">GREEN,Font-SIZE=50</h1>
+<h1 class="optionTwo">RED,Font-SIZE=100</h1>
 
 </body>
 </html>
